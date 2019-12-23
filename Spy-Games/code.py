@@ -6,7 +6,7 @@ file_path
 #Code starts here
 
 def read_file(path):
-    file = open(file_path, mode='r')
+    file = open(path, mode='r')
     sentence = file.read()
     file.close()
     return sentence
